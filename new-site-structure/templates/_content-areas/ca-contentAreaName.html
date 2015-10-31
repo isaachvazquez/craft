@@ -1,0 +1,30 @@
+<div class="ca-contentAreaName clearfix">
+{% for contentBlock in entry.contentAreaName %}
+
+	{#== TEXT FIELD COMPONENT ==#}
+	{# ======================= #}
+	{% if contentBlock.type == 'componentHandle' %}
+		{% include 'components/example_component.html' %}
+
+
+	{#== SINGLE IMAGE COMPONENT ==#}
+	{# ======================= #}
+	{% elseif contentBlock.type == 'componentHandle' %}
+		{% include 'components/example_component.html' %}
+
+
+	{#== IMAGE GRID COMPONENT ==#}
+	{# ======================= #}
+	{% elseif contentBlock.type == 'componentHandle' %}
+		{% include 'components/example_component.html' %}
+
+
+	{#== FORM COMPONENT ==#}
+	{# ================= #}
+	{% elseif contentBlock.type == 'componentHandle' %}
+		{% include 'components/example_component.html' %}
+
+
+	{% endif %}
+{% endfor %}
+</div>
