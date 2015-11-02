@@ -6,6 +6,10 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify');
 
+// variables for better readability in gulp tasks
+// var cssFiles = [],
+// 	jsFiles = [];
+
 gulp.task('default', function() {
   // place code for your default task here
 });
