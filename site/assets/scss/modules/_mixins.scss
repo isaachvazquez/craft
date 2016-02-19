@@ -12,3 +12,10 @@
       -ms-transform: translate($x, $y);
           transform: translate($x, $y);
 }
+
+@mixin transition($property, $duration) {
+  -webkit-transition: $property $duration;
+     -moz-transition: $property $duration;
+      -ms-transition: $property $duration;
+          transition: $property $duration;
+}
