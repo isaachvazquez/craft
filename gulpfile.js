@@ -9,12 +9,12 @@ var gulp = require('gulp'),
 		scss = require('gulp-sass'),
 		cssnano = require('gulp-cssnano');
 
-var scssPath = './assets/scss/**/*.scss',
-		jsPath = './assets/js/modules/*.js',
-		scssWatchPath = './assets/scss/**/*.scss',
-		jsWatchPath = './assets/js/**/*.js',
-		compiledCSSPath = './assets/css/',
-		compiledJSPath = './assets/js/';
+var scssPath = './site/assets/scss/**/*.scss',
+		jsPath = './site/assets/js/modules/*.js',
+		scssWatchPath = './site/assets/scss/**/*.scss',
+		jsWatchPath = './site/assets/js/**/*.js',
+		compiledCSSPath = './site/assets/css/',
+		compiledJSPath = './site/assets/js/';
 
 // ========================================
 // Default Gulp task

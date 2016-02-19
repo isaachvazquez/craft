@@ -2,7 +2,23 @@
 Basic setup for new projects using Craft CMS
 
 
-## Definitions / Terminology
+## Dev Setup
+1. To get Craft, run: `git clone https://github.com/isaachvazquez/craft`
+2. To install Gulp, run: `npm install --save-dev gulp`
+3. To install Gulp plugins, run: `npm install --save-dev gulp-sass gulp-concat gulp-uglify gulp-cssnano`
+
+
+## Usage
+
+### Development Commands
+`gulp watch` - Compiles/concatenates all scss/js files on save.
+
+### Production Commands
+`gulp build` - Builds all assets for production environment.
+
+
+
+## Craft Definitions / Terminology
 
 * Theme - Template for specific page layouts.
 	* DTO initialization snippet (twig).
