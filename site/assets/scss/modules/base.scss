@@ -29,11 +29,11 @@ body {
 
 /*-- Links --*/
 a {
-
+  @include transition(all, 0.3s);
 }
 
 a:hover {
-  @include transition(all, 0.3s);
+
 }
 
 /*-- paragraphs --*/
