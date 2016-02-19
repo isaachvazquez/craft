@@ -21,9 +21,9 @@
 		{#=============#}
 		{#==CSS BLOCK==#}
 		<!-- Third Party CSS -->
-		{% includeCssFile "/assets/fonts/font-awesome/css/font-awesome.min.css" %}
+		{% includeCssFile "./assets/fonts/font-awesome/css/font-awesome.min.css" %}
 		<!-- Global CSS -->
-		{% includeCssFile "/assets/css/global.css" %}
+		{% includeCssFile "./assets/css/global.css" %}
 		{% block css %}
 			// Page specific css files go here
 		{% endblock %}
@@ -54,7 +54,7 @@
 		{% endblock %}
 		{#===================#}
 
-	
+
 		{#=================#}
 		{#==CONTENT BLOCK==#}
 		{% block content %}
@@ -62,7 +62,7 @@
 		{% endblock %}
 		{#===================#}
 
-		
+
 		{#================#}
 		{#==FOOTER BLOCK==#}
 		{% block footer %}
@@ -73,9 +73,9 @@
 
 		{#============#}
 		{#==JS BLOCK==#}
-		{% include "/assets/js/global.js" %}
+		{% include "./assets/js/global.js" %}
 		{% block js %}
-			// Page specific js files go here. 
+			// Page specific js files go here.
 		{% endblock %}
 		{#===================#}
 
@@ -89,6 +89,10 @@
 			ga('create', '{{ GoogleAnalyticsID }}', 'auto');
 			ga('send', 'pageview');
 		</script>
+
+    <noscript>
+      <!-- What you wish to be rendered if a user has javascript disabled on your site. -->
+    </noscript>
 
 	</body>
 </html>
