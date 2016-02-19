@@ -1,0 +1,1 @@
+var a=0,b=200;a===b&&console.log("True dat.");for(var i=0;b>i;i++)console.log("Arrrgggggghhhhh I am a pirate");var x=212,z=23,y=2,apple="apple",banana="banana",orange="orange";
